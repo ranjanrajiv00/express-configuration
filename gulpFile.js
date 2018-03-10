@@ -8,7 +8,7 @@ gulp.task('compile', function () {
     return tsProject
         .src()
         .pipe(tsProject())
-        .pipe(gulp.dest('./dest/'));
+        .pipe(gulp.dest('./dist/'));
 })
 
 gulp.task('watch', function () {
